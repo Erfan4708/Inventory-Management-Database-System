@@ -24,6 +24,15 @@ We have written and tested several SQL queries based on this design. You can rev
 
 To test these queries, we wrote a C# script that inserts sample data into the database. The script ensures that the database is populated with the necessary sample data for testing purposes.
 
+#### Running the C# Script
+To run the C# script, you can use csx scripts. Follow these steps:
+
+- Install .NET Core SDK from dotnet.microsoft.com.
+- Open a terminal or command prompt.
+- Navigate to the directory where your C# script is located.
+- Run the script using the following command:
+`dotnet script InsertData.csx`
+
 ### Database Normalization
 
 We normalized the database design to the Third Normal Form (3NF) to ensure data integrity and minimize redundancy. The normalized design is shown below:
