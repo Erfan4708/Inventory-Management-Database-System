@@ -2,7 +2,7 @@
 
 This project is a database system designed for managing inventory in a store. The system accounts for various entities such as stores, warehouses, locations, customers, users, and catalogs. Below is a detailed explanation of the system, its design, and the SQL queries used.
 
-## Database Design
+## Database Design 1
 
 Our university project required us to document the design process and establish relationships and attributes. The database design and its descriptions are illustrated below:
 
