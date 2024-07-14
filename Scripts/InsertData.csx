@@ -5,7 +5,7 @@ using System.Data.SqlClient;
 using System.Collections.Generic;
 using System.Linq;
 
-string connectionString = "Server=.\\Moein;Database=DatabaseTest;User Id=sa;Password=arta0@;";
+string connectionString = "Server=ServerName;Database=DatabaseName;User Id=Username;Password=Pass;";
 
 void InsertThirdPartyData(SqlConnection connection, List<int> thirdPartyIds)
 {
